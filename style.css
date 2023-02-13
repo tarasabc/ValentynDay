@@ -1,0 +1,119 @@
+
+body{
+    
+    background-image: url(fon.jpg);
+   
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    padding: 0px;
+    margin: 0px;
+}
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 35vh;
+            margin-top: 0px;
+            padding-top: 0px;
+        }
+        .button {
+            
+            width: 70%;
+            text-align: center; 
+            background-color: rgba(221, 221, 221, 0.7);
+            border-radius: 10px;
+            margin-bottom: 0.5em;
+        }
+        .button a {
+            color: black;
+            text-decoration: none;
+            font-size: 3.2vb;
+            font-weight: 800;
+           
+            
+        }
+        .button p{
+            margin: 0.5em;
+        }
+        .milka{
+           
+            display: block;
+    margin: 0 auto;
+    width: 80%;
+        }
+        .text{
+            color: rgb(255, 255, 255);
+            font-size: 4.5vb;
+            text-align: center;
+            /* padding-bottom: 50px; */
+            font-weight: 600;
+            background-color: rgba(0, 0, 0, 0.25);
+            border-radius: 10px;
+            margin-bottom: 0.5em;
+        }
+        .red{
+            color: red;
+        }
+        .yellow{
+            color: yellow;
+        }
+        .text2{
+            color: rgb(255, 255, 255);
+            font-size: 3.4vb;
+            text-align: center;
+            /* padding-bottom: 50px; */
+            font-weight: 500;
+            background-color: rgba(0, 0, 0, 0.25);
+            border-radius: 10px;
+            margin-bottom: 0.5em;
+        }
+        .war{
+            display: block;
+            margin: 0 auto;
+            max-width: 90%;
+        }
+        .cont p {
+            text-align: left;
+            margin-left: 20%;
+            margin-top: -9%;
+            color: yellow;
+          }
+          .cont
+          {
+            text-align: center;
+          }
+          
+          #number {
+            font-size: 3.5vb;
+          }
+          #increase-button {
+            background-color: darkgreen;
+            color: yellow;
+            font-size: 18px;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+          }
+          .text3{
+            color: yellow;
+            font-size: 4.5vb;
+            text-align: center;
+            /* padding-bottom: 50px; */
+            font-weight: 500;
+            background-color: rgba(1, 50, 32, 0.5);
+            border-radius: 10px;
+            margin-bottom: 0.5em;
+        }
+        .text3 span{
+            color: white;
+            font-size: 3.4vb;
+            text-align: center;
+            /* padding-bottom: 50px; */
+            font-weight: 500;
+            background-color: rgba(1, 50, 32, 0.5);
+            border-radius: 10px;
+            margin-bottom: 0.5em;
+        }
