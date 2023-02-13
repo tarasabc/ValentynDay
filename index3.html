@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+   
+    <title>Валентинка☺♥</title>
+   
+      
+</head>
+<body>
+    
+    <div class="container">
+    <div class="button">
+        <a href="index.html"> <p>  Вітаю &#127801;    </p></a>
+            
+    </div>
+    <div class="button">
+        <a href="index2.html"> <p > Кріндж &#127873;</p></a>
+    </div>
+    <div class="button">
+        <a href="index3.html">  <p>  Мілота &#129392;    </p></a>
+    </div>
+
+</div>
+<div class="cont">
+    
+    <img id="image"  class="war"  src="gen.jpg" alt="">
+    <p id="number">138340</p>
+  <button id="increase-button">Дамбіть Бомбас!</button>
+</div>
+<p class="text3">Жми кноооопку "Дамбіть Бомбас", всі ці дохлі орки для тебе &#128536; <br> <span>(Мі-мі-мі-РОМАНТИКА&#128536;)</span></p>
+<script>
+    let numberEl = document.getElementById("number");
+    let buttonEl = document.getElementById("increase-button");
+  
+    buttonEl.addEventListener("click", function() {
+      let randomNumber = Math.floor(Math.random() * (1500 - 500 + 1) + 500);
+      numberEl.innerHTML = parseInt(numberEl.innerHTML) + randomNumber;
+    });
+  </script>
+</body>
+
+</html>
